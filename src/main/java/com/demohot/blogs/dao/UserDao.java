@@ -1,9 +1,13 @@
 package com.demohot.blogs.dao;
 
+import com.demohot.blogs.po.User;
+
 public interface UserDao {
-	
-	void insert();
-	
+
+	void insert(User user);
+
 	void select();
-	
+
+	void login(String username, String password);
+
 }
