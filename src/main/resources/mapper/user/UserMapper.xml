@@ -5,7 +5,7 @@
 <mapper namespace="com.demohot.blogs.mapper.UserMapper">
 
 	<select id="get" resultType="User">
-		select * from user where id = #{id}
+		select * from card where id = #{id}
 	</select>
 
 </mapper>

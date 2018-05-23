@@ -18,7 +18,7 @@ public class UserMapperTest {
 
 	@Test
 	public void testGet() {
-		User user = userMapper.get(1);
+		User user = userMapper.get(3);
 		System.out.println(user.getUsername());
 	}
 
