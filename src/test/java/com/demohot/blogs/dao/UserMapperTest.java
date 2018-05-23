@@ -7,7 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.demohot.blogs.mapper.UserMapper;
-import com.demohot.blogs.po.User;
+import com.demohot.blogs.model.User;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration({ "classpath:beans.xml" })

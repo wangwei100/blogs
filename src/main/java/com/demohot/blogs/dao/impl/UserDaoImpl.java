@@ -8,7 +8,7 @@ import java.sql.Statement;
 import org.springframework.stereotype.Repository;
 
 import com.demohot.blogs.dao.UserDao;
-import com.demohot.blogs.po.User;
+import com.demohot.blogs.model.User;
 
 @Repository
 public class UserDaoImpl implements UserDao {

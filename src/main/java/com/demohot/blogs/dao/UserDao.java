@@ -1,6 +1,6 @@
 package com.demohot.blogs.dao;
 
-import com.demohot.blogs.po.User;
+import com.demohot.blogs.model.User;
 
 public interface UserDao {
 
