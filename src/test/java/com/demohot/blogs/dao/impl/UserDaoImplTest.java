@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.demohot.blogs.dao.UserDao;
-import com.demohot.blogs.po.User;
+import com.demohot.blogs.model.User;
 
 public class UserDaoImplTest {
 

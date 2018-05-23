@@ -1,4 +1,4 @@
-package com.demohot.blogs.po;
+package com.demohot.blogs.model;
 
 public class User {
 	private Integer id;
