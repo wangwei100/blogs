@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.demohot.homework</groupId>
-	<artifactId>blogs</artifactId>
+	<artifactId>Server_blogs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>blogs Maven Webapp</name>
+	<name>Server_blogs Maven Webapp</name>
 	<packaging>war</packaging>
 	<url>http://maven.apache.org</url>
 
