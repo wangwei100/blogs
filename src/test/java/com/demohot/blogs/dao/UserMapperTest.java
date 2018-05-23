@@ -10,7 +10,7 @@ import com.demohot.blogs.mapper.UserMapper;
 import com.demohot.blogs.model.User;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration({ "classpath:beans.xml" })
+@ContextConfiguration({ "classpath:app-context.xml" })
 public class UserMapperTest {
 
 	@Autowired
