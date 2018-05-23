@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.demohot.blogs.mapper.UserMapper;
 import com.demohot.blogs.po.User;
 
 @RunWith(SpringRunner.class)

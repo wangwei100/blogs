@@ -1,4 +1,4 @@
-package com.demohot.blogs.dao;
+package com.demohot.blogs.mapper;
 
 import com.demohot.blogs.po.User;
 
