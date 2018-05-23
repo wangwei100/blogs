@@ -10,9 +10,9 @@
 
 	<name>Server_blogs Maven Webapp</name>
 	<packaging>war</packaging>
-	<url>http://maven.apache.org</url>
+	<url>http://maven.apache.org</url>  
 
-	<dependencies>
+	<dependencies>  
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
