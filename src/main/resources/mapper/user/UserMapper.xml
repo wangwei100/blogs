@@ -5,7 +5,11 @@
 <mapper namespace="com.demohot.blogs.mapper.UserMapper">
 
 	<select id="get" resultType="User">
-		select * from user where id = #{id}
+		select * from user where id = #{id} limit 1
+	</select>
+
+	<select id="getByUsernameAndPassword" resultType="User">
+		select * from user where username = #{username} and password = #{password} limit 1
 	</select>
 
 </mapper>
