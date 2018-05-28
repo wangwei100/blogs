@@ -1,5 +1,7 @@
 package com.demohot.blogs.model;
 
+import com.alibaba.fastjson.JSON;
+
 public class User {
 	private Integer id;
 	private String username;
@@ -36,6 +38,11 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return JSON.toJSONString(this);
 	}
 
 }
